@@ -1,0 +1,133 @@
+#End to overworld
+
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_fence replace iron_bars
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_wood replace chorus_plant
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_leaves replace chorus_flower
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 glass replace magenta_stained_glass
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 stone_bricks replace end_stone_bricks
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_planks replace purpur_block
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_log replace purpur_pillar
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_slab[type= top] replace purpur_slab[type= top]
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_slab[type= bottom] replace purpur_slab[type= bottom]
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 oak_stairs replace purpur_stairs
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 player_wall_head replace dragon_wall_head
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 torch replace end_rod
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 stone replace obsidian
+execute at @a in minecraft:the_end run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 grass_block replace end_stone
+
+#overworld to nether
+
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 weeping_vines replace vine
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 twisting_vines replace bamboo
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 twisting_vines replace sugar_cane
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 fire replace dead_bush
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_roots replace fern
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_roots replace large_fern
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 crimson_roots replace pumpkin
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 crimson_roots replace melon
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 shroomlight replace cocoa
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_sprouts replace grass
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 bone_block replace cactus
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_sand replace sand
+execute at @a in minecraft:overworld run fill ~11 ~11 ~11 ~-11 ~-11 ~-11 barrier replace water
+execute at @a in minecraft:overworld run fill ~11 ~11 ~11 ~-11 ~-11 ~-11 barrier replace kelp
+execute at @a in minecraft:overworld run fill ~11 ~11 ~11 ~-11 ~-11 ~-11 barrier replace seagrass
+execute at @a in minecraft:overworld run fill ~11 ~11 ~11 ~-11 ~-11 ~-11 barrier replace tall_seagrass
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 lava replace barrier
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_nylium replace grass_block
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 crimson_nylium replace podzol
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 crimson_nylium replace mycelium
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 netherrack replace dirt
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 netherrack replace stone
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 shroomlight replace bee_nest
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_gold_ore replace coal_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_gold_ore replace gold_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_gold_ore replace deepslate_redstone_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_gold_ore replace emerald_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_gold_ore replace deepslate_emerald_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_gold_ore replace deepslate_lapis_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace copper_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace iron_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace lapis_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace redstone_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace deepslate_copper_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace deepslate_gold_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace deepslate_coal_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_quartz_ore replace deepslate_iron_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 ancient_debris replace diamond_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 ancient_debris replace deepslate_diamond_ore
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 glowstone replace diorite
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 magma_block replace granite
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 blackstone replace andesite
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 blackstone replace tuff
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 blackstone replace deepslate
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 lava replace calcite
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 lava replace smooth_basalt
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 lava replace budding_amethyst
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 lava replace amethyst_block
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace glow_lichen
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_stem replace oak_log
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_wart_block replace oak_leaves
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_stem replace birch_log
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_wart_block replace birch_leaves
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 crimson_stem replace spruce_log
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_wart_block replace spruce_leaves
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_stem replace jungle_log
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 warped_wart_block replace jungle_leaves
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 crimson_stem replace acacia_log
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_wart_block replace acacia_leaves
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 basalt replace dark_oak_log
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace dark_oak_leaves
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace sandstone
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace terracotta
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace red_terracotta
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace orange_terracotta
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace yellow_terracotta
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace light_gray_terracotta
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace white_terracotta
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_soil replace brown_terracotta
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace snow
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 nether_bricks replace cobblestone
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 cracked_nether_bricks replace mossy_cobblestone
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 soul_sand replace red_sand
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 lava replace mushroom_stem
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 basalt replace red_mushroom_block
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 basalt replace brown_mushroom_block
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 magma_block replace ice
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 magma_block replace snow_block
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 magma_block replace blue_ice
+execute at @a in minecraft:overworld run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 magma_block replace packed_ice
+kill @e[type=item,nbt={Item: {id: "minecraft:weeping_vines"}}]
+
+#nether to end
+
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 chorus_flower replace warped_wart_block
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 chorus_plant replace warped_stem
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 chorus_flower replace nether_wart_block
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 chorus_plant replace crimson_stem
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace netherrack
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace soul_sand
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace soul_soil
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace nether_quartz_ore
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace nether_gold_ore
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace warped_nylium
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace crimson_nylium
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace gravel
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace glowstone
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace blackstone
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace magma_block
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 magenta_stained_glass replace nether_brick_fence
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace lava
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace bedrock
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace basalt
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace shroomlight
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace polished_blackstone_bricks
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace cracked_polished_blackstone_bricks
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace gold_block
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace gilded_blackstone
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace polished_blackstone_brick_stairs
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace chain
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace blackstone_slab
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone replace chiseled_polished_blackstone
+execute at @a in minecraft:the_nether run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 end_stone_bricks replace nether_bricks
+execute at @a in minecraft:the_nether run fill ~10 81 ~10 ~-10 127 ~-10 air
